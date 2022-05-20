@@ -1,4 +1,5 @@
 import React from "react";
+import RepositoryItem from "../repository-item";
 import * as S from "./styled";
 
 const Repositories = () => {
@@ -11,8 +12,12 @@ const Repositories = () => {
             <S.WrapperTab>Repositories</S.WrapperTab>
             <S.WrapperTab>Starred</S.WrapperTab>
         </S.WrapperTabList>
-        <S.WrapperTabPanel>Panel Repositories</S.WrapperTabPanel>
-        <S.WrapperTabPanel>Panel Starred</S.WrapperTabPanel>
+        <S.WrapperTabPanel>
+          <RepositoryItem />
+        </S.WrapperTabPanel>
+        <S.WrapperTabPanel>
+          <RepositoryItem />
+        </S.WrapperTabPanel>
     </S.WrapperTabs>
   );
 };
