@@ -1,1 +1,1 @@
-Criando uma interface componentizada utilizando styled components
+Criando uma interface componentizada com React e  styled components
